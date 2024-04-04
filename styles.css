@@ -1,0 +1,40 @@
+.contenedor-portada {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.contenedor-portada.fondo {
+    display: inline;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.imagen {
+    position: absolute;
+    z-index: 3;
+    filter: drop-shadow(5px 5px 5px #2225);}
+
+.boton {
+    position: absolute;
+    z-index: 3;
+    padding: 0.8em;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #005d6a;
+    color: white;
+    box-shadow: 5px 5px 10px #20202088;
+}
+
+.boton:hover {
+    box-shadow: 5px 5px 10px #202020;
+    background-color: #0a6e7b;
+}
+
+.crece {
+    transition: all .2s ease-in-out;
+}
+.crece:hover {
+      transform: scale(1.2);
+    }
