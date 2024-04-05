@@ -11,15 +11,25 @@
     left: 0;
 }
 
-.imagen {
+.boton-imagen {
     position: absolute;
     z-index: 3;
-    filter: drop-shadow(5px 5px 5px #2225);}
+    filter: drop-shadow(5px 5px 5px #2225);
+}
+.boton-imagen img {
+    max-height: 4.5cqi;
+
+} 
+
+
 
 .boton {
     position: absolute;
     z-index: 3;
     padding: 0.8em;
+    max-height: 4.5cqi;
+    font-size: 1.9cqi;
+    padding: 1%;
     border-radius: 5px;
     text-decoration: none;
     background-color: #005d6a;
