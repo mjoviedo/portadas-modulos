@@ -21,14 +21,17 @@
 
 } 
 
-
+/*
+clamp(3.3rem, 3rem + 1.5vw, 5rem);
+*/
 
 .boton {
     position: absolute;
     z-index: 3;
-    padding: 0.8em;
-    max-height: 4.5cqi;
-    font-size: 1.9cqi;
+    padding: 0.7em;
+    max-height: calc(1.75em + 0.8vmin);
+    line-height: 0.9em;
+    font-size: 1.8cqi;
     padding: 1%;
     border-radius: 5px;
     text-decoration: none;
