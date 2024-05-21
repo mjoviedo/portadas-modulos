@@ -1,9 +1,9 @@
-.contenedor-portada {
+.cssm-contenedor-portada {
     position: relative;
     top: 0;
     left: 0;
 }
-.contenedor-portada.fondo {
+.cssm-contenedor-portada.fondo {
     display: inline;
     position: relative;
     z-index: 1;
@@ -11,21 +11,20 @@
     left: 0;
 }
 
-.boton-imagen {
+.cssm-boton-imagen {
     position: absolute;
     z-index: 3;
     filter: drop-shadow(5px 5px 5px #2225);
 }
-.boton-imagen img {
+.cssm-boton-imagen img {
     max-height: 4.5cqi;
-
 } 
 
 /*
 clamp(3.3rem, 3rem + 1.5vw, 5rem);
 */
 
-.boton {
+.cssm-boton {
     position: absolute;
     z-index: 3;
     padding: 0.7em;
@@ -40,14 +39,14 @@ clamp(3.3rem, 3rem + 1.5vw, 5rem);
     box-shadow: 5px 5px 10px #20202088;
 }
 
-.boton:hover {
+.cssm-boton:hover {
     box-shadow: 5px 5px 10px #202020;
     background-color: #0a6e7b;
 }
 
-.crece {
+.cssm-crece {
     transition: all .2s ease-in-out;
 }
-.crece:hover {
+.cssm-crece:hover {
       transform: scale(1.2);
     }
