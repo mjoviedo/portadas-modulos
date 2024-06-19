@@ -17,7 +17,7 @@
     filter: drop-shadow(5px 5px 5px #2225);
 }
 .cssm-boton-imagen img {
-    max-height: 4.5cqi;
+    height: 7cqh;
 } 
 
 /*
@@ -28,7 +28,6 @@ clamp(3.3rem, 3rem + 1.5vw, 5rem);
     position: absolute;
     z-index: 3;
     padding: 0.7em;
-    max-height: calc(1.75em + 0.8vmin);
     line-height: 0.9em;
     font-size: 1.8cqi;
     padding: 1%;
@@ -48,5 +47,5 @@ clamp(3.3rem, 3rem + 1.5vw, 5rem);
     transition: all .2s ease-in-out;
 }
 .cssm-crece:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
